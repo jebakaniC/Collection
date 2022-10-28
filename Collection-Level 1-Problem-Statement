@@ -1,0 +1,18 @@
+Ravi is a stock market strategist and his son is learning the Java language. Ravi decided to check his son's programming skills. 
+He asks his son to create a simple application using a collection that will help him to add the stocks to the watchlist. 
+So help his son in adding stocks and display the stocks added with your java skills.
+
+Sample Input / Output:
+
+Input:
+Enter number of stocks to add
+
+4
+
+SBI
+Wipro
+Tata 
+Infosys
+
+Output:
+[SBI, Wipro, Tata, Infosys]
