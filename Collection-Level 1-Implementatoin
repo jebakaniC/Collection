@@ -1,0 +1,24 @@
+//Implementation
+
+import java.util.*;
+import java.util.Scanner;
+
+public class UserInterface{
+    
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+        
+        List<String> company = new ArrayList<String>();
+        
+        System.out.println("Enter number of stocks to add: ");
+        
+        int num = Integer.parseInt(sc.nextLine());
+        
+        for (int i = 0; i < num; i++) {
+            company.add(sc.nextLine());
+        }
+        
+        System.out.println(company);
+    }
+}
